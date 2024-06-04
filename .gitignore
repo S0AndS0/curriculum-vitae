@@ -1,0 +1,6 @@
+## Development
+/dev
+
+## Vim
+*.swp
+*.swo

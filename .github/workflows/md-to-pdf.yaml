@@ -1,0 +1,101 @@
+name: MarkDown to PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      ##
+      # Note: we write to the `_site/` directory to reduce the amount of
+      # additional customization necessary of defaults for leveraging GitHub
+      # Pages related Actions
+      - name: Set shared environment variables
+        shell: bash
+        run: |
+          printf 'FILE_OUTPUT_PDF="%s"\n'      "_site/curriculum-vitae.pdf"  >> $GITHUB_ENV
+          printf 'FILE_INPUT_MARKDOWN="%s"\n'  'curriculum-vitae.md'         >> $GITHUB_ENV
+
+      - name: Checkout source Git branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+
+      - name: Create PDF from MarkDown file
+        uses: ./.github/workflows/pandoc-extended/
+        # uses: docker://pandoc/extra:3.1.13.0-alpine
+        with:
+          args: >
+            --from=markdown
+            --variable=colorlinks
+            --variable=includesource
+            --highlight-style=tango
+            --output=${{ env.FILE_OUTPUT_PDF }}
+            ${{ env.FILE_INPUT_MARKDOWN }}
+
+      ## Outputs;
+      # - `artifact-id` accessible via REST API
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3.0.1
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      ## Outputs;
+      # - `page_url` The URL of the deployed Pages site
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v4.0.5
+
+      ###
+      ## Outputs;
+      ## - `artifact-id` accessible via REST API
+      ## - `artifact-url` URL from which artifact may be downloaded if not expired
+      #- id: upload_pdf
+      #  name: Upload PDF as build artifact
+      #  uses: actions/upload-a-build-artifact@v4.3.3
+      #  with:
+      #    # Fail action when no files are found
+      #    if-no-files-found: error
+      #    # Allow overwriting preexisting artifacts
+      #    overwrite: true
+      #    # Name of uploaded artifact
+      #    name: ${{ env.FILE_OUTPUT_PDF }}
+      #    # Where directory/file-(s) to upload are
+      #    path: ${{ env.FILE_OUTPUT_PDF }}
+
+      #- name: Print results
+      #  run: |
+      #    printf 'Upload results:\n'
+      #    printf '  artifact-id: %s\n'   "${{ steps.upload_pdf.outputs.artifact-id }}"
+      #    printf '  artifact-url: %s\n'  "${{ steps.upload_pdf.outputs.artifact-url }}"
+
+##
+# Attributions
+# - https://github.com/pandoc/dockerfiles
+#
+# - https://stackoverflow.com/questions/57968497/how-do-i-set-an-env-var-with-a-bash-expression-in-github-actions
+#
+# - https://stackoverflow.com/questions/59954185/github-action-split-long-command-into-multiple-lines
+#
+# - https://github.com/pandoc/pandoc-action-example/blob/master/.github/workflows/advanced.yml
+#
+# - https://github.com/marketplace/actions/checkout
+#
+# - https://github.com/pandoc/dockerfiles/tree/master/alpine
+# - https://hub.docker.com/r/pandoc/latex
+#
+# - https://github.com/marketplace/actions/upload-github-pages-artifact
+# - https://github.com/marketplace/actions/deploy-github-pages-site

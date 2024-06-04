@@ -263,8 +263,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 The above licence is applicable to the following files;
 
-- `.github/workflows/md-to-pdf.yaml`
 - `.github/README.md`
+- `.github/workflows/md-to-pdf.yaml`
+- `.github/workflows/pandoc-extended/Dockerfile`
 - `scripts/pandoc-md-to-pdf.sh`
 
 ... Files not listed above are instead shared under "All rights reserved"

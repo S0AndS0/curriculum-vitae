@@ -1350,6 +1350,12 @@ powerful text editor, to suit personal preferences and workflow.  Implemented
 keybindings, plugins, and themes to enhance coding experience and streamline
 development processes.
 
+### [Curriculum Vitae](https://github.com/S0AndS0/curriculum-vitae) source code and [PDF](https://s0ands0.github.io/curriculum-vitae/curriculum-vitae.pdf)
+
+Crafted GitHub Actions, and Docker, configurations to leverage LaTeX and GitHub
+Pages for automatically publishing updated public version of CV when changes
+are detected within the source MarkDown file.
+
 ### [Debain-Kit-Mods](https://github.com/S0AndS0/Debian-Kit-Mods) source code
 
 Developed and implemented advanced scripts and methods to modify ARM Linux

@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - curriculum-vitae.md
+      - .github/workflows/md-to-pdf.yaml
+      - .github/workflows/pandoc-extended/Dockerfile
 
 jobs:
   build:

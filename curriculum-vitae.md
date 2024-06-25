@@ -1064,6 +1064,11 @@ ensure optimal performance and accuracy.
 Developed Iterate Text, a robust Rust library that provides a collection of
 helper functions and structures for efficient iteration over text and files.
 
+### [Liquid Grammar Pest](https://github.com/rust-utilities/liquid-grammar-pest/) source code and [`cargo`](https://crates.io/crates/liquid-grammar-pest) installable package
+
+Authored thorough Rust/Pest parser rules for the
+[Shopify Liquid](https://shopify.github.io/liquid/) templating language.
+
 ### [Template Project Modules](https://github.com/rust-utilities/template-project-modules) source code
 
 Developed the Template Project Modules, a comprehensive Rust template that
@@ -1451,6 +1456,14 @@ Organizations, projects, and communities.
 > to include links to any Pull Requests, Merge Requests, and/or Issues I have
 > contributed too.
 
+### [Awesome Pest](https://github.com/pest-parser/awesome-pest) source code
+
+Submitted [Pull Request](https://github.com/pest-parser/awesome-pest/pull/4)
+linking to
+[Liquid Grammar Pest][heading__liquid_grammar_pesthttpsgithubcomrustutilitiesliquidgrammarpest_source_code_and_cargohttpscratesiocratesliquidgrammarpest_installable_package]
+project as requested by
+[@tomtau](https://github.com/pest-parser/pest/discussions/1021#discussioncomment-9865757),
+a maintainer of the Pest parser project.
 
 ### [CSS Dropdown](https://github.com/S0AndS0/css-dropdown) source code
 

@@ -644,6 +644,14 @@ Developed and maintained Decimal to Base, a versatile JavaScript library that
 enables seamless conversion of decimal numbers to various bases such as hex,
 octal, and binary.
 
+### [Guarded Set Interval](https://github.com/javascript-utilities/guarded-set-interval/) source code and [NPM](https://www.npmjs.com/package/@javascript-utilities/guarded-set-interval) installable package
+[heading__guarded_set_intervalhttpsgithubcomjavascriptutilitiesguardedsetinterval_source_code_and_npmhttpswwwnpmjscompackagejavascriptutilitiesguardedsetinterval_installable_package]: #guarded-set-intervalhttpsgithubcomjavascriptutilitiesguardedsetinterval-source-code-and-npmhttpswwwnpmjscompackagejavascriptutilitiesguardedsetinterval-installable-package
+
+Published a convenient wrapper for the global `setInterval` function that
+provides `.start()` and `.stop()` methods, which prevent memory leaks by
+keeping track of timer ID internally, as well as re-entry guard to prevent
+clobbering state caused by premature re-execution of a slow callback function.
+
 ### [Iterator Cascade Callbacks](https://github.com/javascript-utilities/iterator-cascade-callbacks) source code and [NPM](https://www.npmjs.com/package/@javascript-utilities/iterator-cascade-callbacks) installable package
 [heading__iterator_cascade_callbackshttpsgithubcomjavascriptutilitiesiteratorcascadecallbacks_source_code_and_npmhttpswwwnpmjscompackagejavascriptutilitiesiteratorcascadecallbacks_package]: #iterator-cascade-callbackshttpsgithubcomjavascriptutilitiesiteratorcascadecallbacks-source-code-and-npmhttpswwwnpmjscompackagejavascriptutilitiesiteratorcascadecallbacks-package
 

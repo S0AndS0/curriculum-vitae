@@ -262,6 +262,7 @@ experience.
 - Senior Backend Developer
 - Lead DevOps Engineer
 - Lead Systems Administrator
+- Lead Blockchain/Smart-Contract Engineer
 
 ### [BoredBoxBatchSender](https://etherscan.io/address/0x4610ada32B41aA761aEFBD97Ea65d0F76949B9CD#code) source code
 

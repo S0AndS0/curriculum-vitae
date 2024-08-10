@@ -1418,7 +1418,7 @@ Developing a groundbreaking project that leverages an Elliptic Curve Digital
 Signature exploit to encode data onto the Bitcoin blockchain.  Utilized a
 carefully crafted series of transactions to intentionally expose private keys.
 
-### [Resume](https://github.com/S0AndS0/resume) source code
+### [Resume Builder](https://github.com/S0AndS0/resume-builder) source code
 
 Developed a dynamic and visually appealing Resume website using HTML, CSS, and
 JavaScript to showcase professional skills and experience. Implemented

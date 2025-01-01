@@ -1246,6 +1246,12 @@ entire lines.
 Developed Nudge Lines, a Vim plugin that allows users to easily move visually
 selected lines up or down while maintaining proper code indentation formatting.
 
+### [Proompter](https://github.com/vim-utilities/proompter) source code
+
+SDK and API wrapper for integrating locally hosted LLM/AI/ML models into one's
+workflow!  Send text selection, with context, to an assistant and get results
+streamed to a target buffer, all while not breaking your own train of thought.
+
 ### [Spelling Shortcuts](https://github.com/vim-utilities/spelling-shortcuts) source code
 
 Developed Spelling Shortcuts, a Vim plugin that provides quick keyboard

@@ -149,9 +149,9 @@ SSH, Systemd, Unbound DNS, VNC, x11vnc
 
 ## Miscellaneous Tools and Frameworks
 
-Chai JS, ESLint, Ethers JS, IPFS, Jekyll, Jest JS, jQuery, Kivy, LibreOffice,
-Mocha JS, Open Office, React JS, ShellCheck, Substrate, Truffle, Vim, Web3 JS,
-Wordpress, Yew
+Astro JS, Chai JS, ESLint, Ethers JS, IPFS, Jekyll, Jest JS, jQuery, Kivy,
+LibreOffice, Mocha JS, Open Office, React JS, ShellCheck, Substrate, Truffle,
+Vim, Web3 JS, Wordpress, Yew
 
 
 \newpage
@@ -1535,6 +1535,13 @@ fixing "Connection Is Not Secure" errors/warnings that occur when web browsers
 attempt to load assets such as images.
 
 - [Pull Request `1782` -- Corrects shields URLs to utilize encryption](https://github.com/liberapay/liberapay.com/pull/1782)
+
+### [LSP Examples](https://github.com/S0AndS0/lsp-examples)
+
+Added configurations and documentation for integrating Astro JS Language Server
+to popular Vim plugin known as You Complete Me.
+
+- [Pull Request `43`](https://github.com/ycm-core/lsp-examples/pull/43)
 
 ### [Minima](https://github.com/S0AndS0/minima) source code
 

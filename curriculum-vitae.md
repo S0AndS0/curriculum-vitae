@@ -111,8 +111,8 @@ header-includes:
 
 ## Coding Languages / Programming Languages / Scripting Languages
 
-Assembly, Awk, Bash, Batch, C, C++, CSS, Ducky Script, Go, HTML, JQ, JSON,
-Java, JavaScript (AKA ECMAScript), Kotlin, Liquid, Make Script, MarkDown,
+Assembly, Awk, Bash, Batch, C, C++, CSS, Ducky Script, Erlang, Go, HTML, JQ,
+JSON, Java, JavaScript (AKA ECMAScript), Kotlin, Liquid, Make Script, MarkDown,
 MathJax, Minecraft Functions, Mustache, Node JS, PHP, Perl, Pest, PowerShell,
 Python, Redstone, RegExp, Rockstar, Ruby, Rust, SCSS / SASS, SQL, Sed,
 Solidity, TypeScript, Vim Script, XML, YAML

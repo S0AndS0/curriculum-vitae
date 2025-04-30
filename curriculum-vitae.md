@@ -1006,7 +1006,7 @@ the functionality of a dictionary and an iterator.
 
 Bash Shell wrapper to activate `pipx` installed package virtual environment via
 `pipx-activate <package-name>`, because for some reason that feature was
-missing from the main `pipx` package 🤷
+missing from the main `pipx` package.
 
 ### [Watch Path](https://github.com/python-utilities/watch_path) source code and [PyPi](https://pypi.org/project/watch-path/) installable package
 

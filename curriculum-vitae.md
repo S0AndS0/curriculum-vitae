@@ -1672,6 +1672,15 @@ comments.
 - [Pull Request `3` -- HTML enhancements](https://github.com/mariuscernescu/the-maze-game/pull/3)
 - [Pull Request `4` -- Javascript enhancements](https://github.com/mariuscernescu/the-maze-game/pull/4)
 
+### [Vim](https://github.com/S0AndS0/vim) source code
+
+I use Vim BTW™, and occasionally attempt to contribute small patches to my
+current favorite text editor ;-)
+
+- [Pull Request `16978` -- Update Solidity syntax](https://github.com/vim/vim/pull/16978)
+  - [`vim/vim` -- included in commit `052b86b` and tag `v9.1.1258`](https://github.com/vim/vim/commit/052b86ba6315e65eb034ac906128f9bd82d5f2d7)
+  - [`neovim/neovim` -- merged in Pull Request `33101`](https://github.com/neovim/neovim/pull/33101)
+
 ### [Vim Spell Under](https://github.com/S0AndS0/vim-spell-under) source code
 
 Improved Vim Spell Under plugin by resolving a bug that caused user-defined

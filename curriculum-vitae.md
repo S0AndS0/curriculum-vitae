@@ -1586,6 +1586,22 @@ Then opened Pull Requests to add Erlang and Postgre language servers too.
 - [Pull Request `44` -- Add Erlang Language Server](https://github.com/ycm-core/lsp-examples/pull/44)
 - [Pull Request `47` -- Add Postgre Language Server](https://github.com/ycm-core/lsp-examples/pull/47)
 
+### [Manim Voiceover](https://github.com/S0AndS0/manim) source code
+
+Thoroughly documented installing on Arch system preventing raw-pip install, and
+added tips/tricks for plugin management as well as integration with Vim tools.
+
+- [Pull Request `4162` -- Add `pipx` install instructions and plugin inject tips](https://github.com/ManimCommunity/manim/pull/4162)
+
+### [Manim Voiceover](https://github.com/S0AndS0/manim-voiceover) source code
+
+Provided functional workaround for a bug in the keyboard event detection module
+to ensure proper functionality on XWayland and Arch Linux, that resolved issues
+with detecting the key events used for starting and stopping voice-over
+recording.
+
+- [Pull Request `106` -- fix: Wayland pynput v1.7.7 workaround](https://github.com/ManimCommunity/manim-voiceover/pull/106)
+
 ### [Minima](https://github.com/S0AndS0/minima) source code
 
 Implemented significant quality of life improvements for web clients, including

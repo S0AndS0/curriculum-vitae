@@ -150,8 +150,8 @@ SSH, Systemd, Unbound DNS, VNC, x11vnc
 ## Miscellaneous Tools and Frameworks
 
 Astro JS, Chai JS, ESLint, Ethers JS, IPFS, Jekyll, Jest JS, jQuery, Kivy,
-LibreOffice, Mocha JS, Open Office, React JS, ShellCheck, Substrate, Truffle,
-Vim, Web3 JS, Wordpress, Yew
+LibreOffice, Mocha JS, Next JS, Open Office, React JS, ShellCheck, Substrate,
+Truffle, Vim, Vitest, Web3 JS, Wordpress, Yew
 
 
 \newpage

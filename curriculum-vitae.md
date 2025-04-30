@@ -1578,9 +1578,13 @@ attempt to load assets such as images.
 ### [LSP Examples](https://github.com/S0AndS0/lsp-examples)
 
 Added configurations and documentation for integrating Astro JS Language Server
-to popular Vim plugin known as You Complete Me.
+to popular Vim plugin known as You Complete Me, which required coordinating
+with maintainers and their up-stream dependency developers to fix a few bugs.
+Then opened Pull Requests to add Erlang and Postgre language servers too.
 
-- [Pull Request `43`](https://github.com/ycm-core/lsp-examples/pull/43)
+- [Pull Request `43` -- Add Astro Language Server](https://github.com/ycm-core/lsp-examples/pull/43)
+- [Pull Request `44` -- Add Erlang Language Server](https://github.com/ycm-core/lsp-examples/pull/44)
+- [Pull Request `47` -- Add Postgre Language Server](https://github.com/ycm-core/lsp-examples/pull/47)
 
 ### [Minima](https://github.com/S0AndS0/minima) source code
 

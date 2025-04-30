@@ -2399,6 +2399,13 @@ implementation of a Rust Iterator, specifically addressing errors [E0053] and
 resulting in valuable feedback and actionable suggestions on how to properly
 encode the desired intent.
 
+#### Requested assistance: [Rebar3 Umbrella Erlang load `.app.src` in multi-app multi-supervisor project](https://stackoverflow.com/questions/79449809/rebar3-umbrella-erlang-load-app-src-in-multi-app-multi-supervisor-project)
+
+Got a bit lost in the weeds while leering the ways of Erlang OTP and Rebar3
+configuration and, after reading much documentation as well as question and
+answers elsewhere, asked for a bit of guidance from the Functional Programming
+community.
+
 
 ## Super User
 [heading__super_user]: #super-user

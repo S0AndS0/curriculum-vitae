@@ -188,6 +188,17 @@ Designed and maintained the Digital Mercenaries LLC website, ensuring
 accessibility for all users and catering to the technical needs of individual
 clients and businesses.
 
+### [Elata Biosciences -- ZORP](https://github.com/Elata-Biosciences/zorp/pulls?q=is%3Apr+author%3ADigital-Mercenaries)
+
+> ZORP is a privacy-preserving data collection and reward distribution platform
+> allows participants to submit data (e.g. EEG or survey results)
+> pseudonymously, while enabling administrators to modderate submissions and
+> distribute rewards.
+
+Authored the blockchain Solidity smart-contracts, and frontend integration
+between Base Ethereum chain and Irys data-storage network.  Then crafted
+concise CI/CD test and build pipeline, and development documentation, to ensure
+expectations are correctly set and never violated.
 
 ## Opentensor
 [heading__opentensor]: #opentensor

@@ -1515,7 +1515,23 @@ and libraries to enhance the readability and organization of the generated
 MarkDown files, resulting in improved documentation quality and ease of
 understanding for developers.
 
-[Pull Request `76` -- Changes `anchorName` to link headings by ID](https://github.com/jsdoc2md/dmd/pull/76)
+- [Pull Request `76` -- Changes `anchorName` to link headings by ID](https://github.com/jsdoc2md/dmd/pull/76)
+
+### [doctest](https://github.com/S0AndS0/doctest) source code
+
+Collaborated with Erlang developers to ensure parsing of document test code
+blocks are reliable and unnecessary warnings were ignored safely.
+
+- [Issue `47` -- Tests pass but `doctest` popping errors: `{{badmatch,{error,{already_started,<0.189.0>}}}`](https://github.com/williamthome/doctest/issues/47)
+
+### [Erlang OTP](https://github.com/S0AndS0/erlang-otp) source code
+
+Contributed toward new `doctest` parser for OTP version 28 to provide better
+parity between preexisting testing library and soon to be standard library
+features.
+
+- [Pull Request `9430` -- doctest allow int/line-number prefix](https://github.com/erlang/otp/pull/9430)
+- [Merge pull request `9430` from S0AndS0/add-doctest-int-prefix](https://github.com/erlang/otp/commit/010603cf22414292b68386eefcd4c1522f0da1a6)
 
 ### [Expense Tracker](https://github.com/S0AndS0/ExpenseTracker) source code
 

@@ -1002,6 +1002,12 @@ and functions, to streamline and enhance functionality in other projects.
 Developed the Hybrid Iterator, a Python 2/3 compatible iterator that combines
 the functionality of a dictionary and an iterator.
 
+### [Pipx Activate BashRC](https://github.com/python-utilities/pipx-activate.bashrc) source code
+
+Bash Shell wrapper to activate `pipx` installed package virtual environment via
+`pipx-activate <package-name>`, because for some reason that feature was
+missing from the main `pipx` package 🤷
+
 ### [Watch Path](https://github.com/python-utilities/watch_path) source code and [PyPi](https://pypi.org/project/watch-path/) installable package
 
 Developed Watch Path, a versatile Python CLI script and library that

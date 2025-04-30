@@ -2028,6 +2028,12 @@ Developed a comprehensive example providing step-by-step migration
 instructions, and Solidity code, to successfully link a smart contract to a
 published library.
 
+### Requested help understanding: [Solidity gas execution/storage costs of `enum` vs `uint constant`](https://ethereum.stackexchange.com/questions/168395/solidity-gas-execution-storage-costs-of-enum-vs-uint-constant)
+
+Requested expert insights before publishing concise, and detailed, benchmarks
+comparing costs differences incurred by using certain types for the same
+use-cases.
+
 
 ## Information Security Stack Exchange
 [heading__information_security_stack_exchange]: #information-security-stack-exchange

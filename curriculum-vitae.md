@@ -1680,6 +1680,9 @@ current favorite text editor ;-)
 - [Pull Request `16978` -- Update Solidity syntax](https://github.com/vim/vim/pull/16978)
   - [`vim/vim` -- included in commit `052b86b` and tag `v9.1.1258`](https://github.com/vim/vim/commit/052b86ba6315e65eb034ac906128f9bd82d5f2d7)
   - [`neovim/neovim` -- merged in Pull Request `33101`](https://github.com/neovim/neovim/pull/33101)
+- [Pull Requests `17458` -- Add NGINX directive for background cache updates](https://github.com/vim/vim/pull/17458)
+  - [`vim/vim` -- included in commit `80a7921` and tag `v9.1.1441`](https://github.com/vim/vim/commit/80a7921a02bbba6e8ebfb19bcc456860d8c269ca)
+  - [`neovim/neovim` -- merged in Pull Request `34377`](https://github.com/neovim/neovim/pull/34377)
 
 ### [Vim Spell Under](https://github.com/S0AndS0/vim-spell-under) source code
 

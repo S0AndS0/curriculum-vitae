@@ -1248,6 +1248,11 @@ current date and/or time into their current buffer. Improved user efficiency by
 providing customizable keybindings and options for different date and time
 formats.
 
+### [Dict](https://github.com/vim-utilities/dict) source code
+
+Published a simple wrapper for CLI DICT Protocol Client to provide quick
+keyboard shortcuts for looking-up a given word's definition.
+
 ### [Emoji Syntax](https://github.com/vim-utilities/emoji-syntax) source code
 
 Developed and customized the Emoji Syntax project, utilizing Vim's syntax

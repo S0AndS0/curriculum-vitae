@@ -605,7 +605,6 @@ GitHub Organization's `.github` directory.
 > Note; this project is what I currently utilize for initializing any new
 > GitHub Organization!
 
-
 ### [Make ReadMe](https://github.com/github-utilities/make-readme) source code
 
 Developed a streamlined process for generating professional and informative

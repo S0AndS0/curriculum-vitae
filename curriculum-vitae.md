@@ -511,6 +511,16 @@ their packages to PyPi.
 Developed and maintained GitHub Actions Utilities, a collection of CI/CD
 projects designed to streamline workflows within GitHub Actions.
 
+### [Bulk CWebP](https://github.com/gha-utilities/bulk-cwebp) source code
+
+Docker based GitHub Action leveraging Bash scripting tricks to simplify
+converting multiple images to Google's `.webp` file format.
+
+### [Image Magick](https://github.com/gha-utilities/ImageMagick) source code
+
+Docker based GitHub Action leveraging Bash scripting tricks to simplify
+converting and/or re-sizing multiple images via `magick` CLI tool.
+
 ### [Initialize Pull Request](https://github.com/gha-utilities/init-pull-request) source code and [Marketplace](https://github.com/marketplace/actions/initialize-pull-request) CI/CD integration
 
 Developed the Initialize Pull Request project, a JavaScript wrapper for

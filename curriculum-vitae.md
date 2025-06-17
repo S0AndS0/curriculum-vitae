@@ -2714,7 +2714,7 @@ Blender, but also how to edit video and audio.
 
 [SASS Build][heading__sass_buildhttpsgithubcomghautilitiessassbuild_source_code_and_marketplacehttpsgithubcommarketplaceactionssassbuild_cicd_integration],
 because people have found it useful, last I checked over
-[200](https://github.com/gha-utilities/sass-build/network/dependents)
+[300](https://github.com/gha-utilities/sass-build/network/dependents)
 projects depend on it, plus some have found it worthy of
 [contributing](https://github.com/gha-utilities/sass-build/graphs/contributors)
 to too!

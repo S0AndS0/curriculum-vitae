@@ -2701,7 +2701,7 @@ pen-name (for decades now) to reduce opportunities for reader biases because
 it is; race-less, genderless, and not associated to any region or religion.  
 
 
-## Why are there no dates listed in "Commercial Entities and Non-Profits" section?
+## Why no dates listed in "Commercial Entities and Non-Profits"?
 
 
 Again to reduce opportunities for unconscious reader biases, plus this CV is
@@ -2715,9 +2715,9 @@ public so care has been taken to redact non-public information.
 because it eliminated all sorts of issues such as; vendor lock-in, cache
 invalidation, and unnecessary front/back-end network traffic.
 
-[3D Printing][heading__3d_printinghttpsgithubcoms0ands03d_printing_source_code_and_websitehttpss0ands0githubio3d_printing],
-because I learned so much!  Not only about Python and API integration with
-Blender, but also how to edit video and audio.
+<!-- [3D Printing][heading__3d_printinghttpsgithubcoms0ands03d_printing_source_code_and_websitehttpss0ands0githubio3d_printing], -->
+<!-- because I learned so much!  Not only about Python and API integration with -->
+<!-- Blender, but also how to edit video and audio. -->
 
 [SASS Build][heading__sass_buildhttpsgithubcomghautilitiessassbuild_source_code_and_marketplacehttpsgithubcommarketplaceactionssassbuild_cicd_integration],
 because people have found it useful, last I checked over

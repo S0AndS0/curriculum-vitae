@@ -2701,6 +2701,13 @@ pen-name (for decades now) to reduce opportunities for reader biases because
 it is; race-less, genderless, and not associated to any region or religion.  
 
 
+## Why are there no dates listed in "Commercial Entities and Non-Profits" section?
+
+
+Again to reduce opportunities for unconscious reader biases, plus this CV is
+public so care has been taken to redact non-public information.
+
+
 ## What projects are you most proud of?
 
 

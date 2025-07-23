@@ -516,6 +516,12 @@ projects designed to streamline workflows within GitHub Actions.
 Docker based GitHub Action leveraging Bash scripting tricks to simplify
 converting multiple images to Google's `.webp` file format.
 
+### [Freeze First Code Blocks](https://github.com/gha-utilities/freeze-first-code-blocks) source code
+
+Docker based GitHub Action leveraging Bash scripting tricks to simplify
+converting first found MarkDown code block into an image via `freeze` for
+multiple files in a repository.
+
 ### [Image Magick](https://github.com/gha-utilities/ImageMagick) source code
 
 Docker based GitHub Action leveraging Bash scripting tricks to simplify

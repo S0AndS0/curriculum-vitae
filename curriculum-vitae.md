@@ -1420,6 +1420,15 @@ distributions on Android devices for the Debian-Kit application. Utilized a
 combination of custom tools and techniques to optimize performance, enhance
 functionality, and customize the user experience.
 
+### [Dockerized `charmbracelet/freeze`](https://github.com/S0AndS0/dockerized-charmbracelet_freeze) source code
+
+This is my first dedicated Dockerfile that's successfully auto published via
+GitHub Actions to
+[Docker Hub](https://hub.docker.com/r/s0ands0/dockerized-charmbracelet_freeze)!
+Was kinda a pain to workaround broken dependencies, but am happy to report
+reasonably reproducible builds of `charmbracelet/freeze` can be reliably
+integrated into other workflows and automation.
+
 ### [GitHub Actions Tests](https://github.com/S0AndS0/gha-tests) source code
 
 Public testing ground for GitHub Actions CI/CD features where various CI/CD

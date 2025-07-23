@@ -1604,7 +1604,7 @@ attempt to load assets such as images.
 
 - [Pull Request `1782` -- Corrects shields URLs to utilize encryption](https://github.com/liberapay/liberapay.com/pull/1782)
 
-### [LSP Examples](https://github.com/S0AndS0/lsp-examples)
+### [LSP Examples](https://github.com/S0AndS0/lsp-examples) source code
 
 Added configurations and documentation for integrating Astro JS Language Server
 to popular Vim plugin known as You Complete Me, which required coordinating
@@ -1614,6 +1614,7 @@ Then opened Pull Requests to add Erlang and Postgre language servers too.
 - [Pull Request `43` -- Add Astro Language Server](https://github.com/ycm-core/lsp-examples/pull/43)
 - [Pull Request `44` -- Add Erlang Language Server](https://github.com/ycm-core/lsp-examples/pull/44)
 - [Pull Request `47` -- Add Postgre Language Server](https://github.com/ycm-core/lsp-examples/pull/47)
+- [Pull Request `52` -- Add Nix Language Server](https://github.com/ycm-core/lsp-examples/pull/52)
 
 ### [Manim Voiceover](https://github.com/S0AndS0/manim) source code
 

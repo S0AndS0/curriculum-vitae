@@ -907,6 +907,19 @@ accurately and consistently convert input IP address bases into fully qualified
 ranges.
 
 
+## [Nix Utilities][nix_utilities] Organization
+
+
+Dedicated to publishing new projects, and packages, for the NixOS ecosystem to
+enjoy prior to possibly submitting pull request(s) to be included in the Linux
+distribution.
+
+### [dict-gcide](https://github.com/nix-utilities/dict-gcide) source code
+
+GCIDE is the GNU version of the Collaborative International Dictionary of
+English for dictd et al.  AKA, a dictionary database.  And this package aims to
+make it installable for Nix systems.
+
 ## [Paranoid Linux][paranoid_linux] Organization
 [heading__paranoid_linuxparanoid_linux_organization]: #paranoid-linuxparanoid_linux-organization
 
@@ -2875,6 +2888,9 @@ preforming any work.
 [network_utilities]:
   https://github.com/network-utilities
   "Catalogs networking specific functions for Bash scripts"
+
+[nix_utilities]:
+  https://github.com/nix-utilities
 
 [node_utilities]:
   https://github.com/node-utilities

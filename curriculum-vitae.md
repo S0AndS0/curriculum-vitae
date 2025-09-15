@@ -1580,6 +1580,12 @@ features.
 An intuitive and user-friendly Expense Tracker application for Android using
 written with Python, Kivy, and KivyMD.
 
+### [Freeze](https://github.com/S0AndS0/freeze) source code
+
+CLI tool to generate images of code and terminal output
+
+- [Pull Request `215` -- Start adding tab-completion](https://github.com/charmbracelet/freeze/pull/215)
+
 ### [HTML form submit example](https://github.com/S0AndS0/html-form-submit-example) source code
 
 Developed and implemented an HTML form submit example project to demonstrate
@@ -1622,12 +1628,37 @@ attempt to load assets such as images.
 Added configurations and documentation for integrating Astro JS Language Server
 to popular Vim plugin known as You Complete Me, which required coordinating
 with maintainers and their up-stream dependency developers to fix a few bugs.
-Then opened Pull Requests to add Erlang and Postgre language servers too.
+Then opened Pull Requests to add Erlang, Postgre, Nix, and SystemD language
+servers too.
 
 - [Pull Request `43` -- Add Astro Language Server](https://github.com/ycm-core/lsp-examples/pull/43)
 - [Pull Request `44` -- Add Erlang Language Server](https://github.com/ycm-core/lsp-examples/pull/44)
 - [Pull Request `47` -- Add Postgre Language Server](https://github.com/ycm-core/lsp-examples/pull/47)
 - [Pull Request `52` -- Add Nix Language Server](https://github.com/ycm-core/lsp-examples/pull/52)
+- [Pull Request `53` -- Add SystemD Language Server](https://github.com/ycm-core/lsp-examples/pull/53)
+
+### [Nix Community `home-manager`](https://github.com/S0AndS0/home-manager/) source code
+
+Added configuration modules for packages, and reported issues with how SSH
+client configurations don't seem to align with expectations.
+
+- [Pull Request `7734` -- pianobar: add module to create config file](https://github.com/nix-community/home-manager/pull/7734)
+- [Issue `7781` -- bug: `ssh.matchBlocks` with `dag.entryBefore` or `dag.entryAfter` ignore order when glob is in name(s)](https://github.com/nix-community/home-manager/issues/7781)
+- [Pull Request `7782` -- WIP ssh: add match block glob order tests](https://github.com/nix-community/home-manager/pull/7782)
+- [Pull Request `7793` -- radio-active: add module to create config files](https://github.com/nix-community/home-manager/pull/7793)
+
+### [NixOS `nixpkgs`](https://github.com/S0AndS0/nixpkgs) source code
+
+Added various packages and plugins that I find useful for others to make use
+of, as well as reported bugs caused by upstream failing to provide files.
+
+- [Pull Request `427615` -- nixos/services.dictd: init gcide at 0.53](https://github.com/NixOS/nixpkgs/pull/427615)
+- [Pull Request `430772` -- ycmd: unstable-2023-11-06 -> unstable-2025-06-16](https://github.com/NixOS/nixpkgs/pull/430772)
+- [Issue `440006` -- Build failure: NVIDIA version 570.181](https://github.com/NixOS/nixpkgs/issues/440006)
+- [Pull Request `441029` -- radio-active: init at 2.9.1](https://github.com/NixOS/nixpkgs/pull/441029)
+- [Pull Request `442463` -- prettier: Use `wrapProgram` for plugins](https://github.com/NixOS/nixpkgs/pull/442463)
+- [Pull Request `442722` -- formats: add `vim`](https://github.com/NixOS/nixpkgs/pull/442722)
+- [Pull Request `442943` -- prettier: Add official plugins](https://github.com/NixOS/nixpkgs/pull/442943)
 
 ### [Manim Voiceover](https://github.com/S0AndS0/manim) source code
 
@@ -1726,6 +1757,7 @@ current favorite text editor ;-)
 - [Pull Requests `17458` -- Add NGINX directive for background cache updates](https://github.com/vim/vim/pull/17458)
   - [`vim/vim` -- included in commit `80a7921` and tag `v9.1.1441`](https://github.com/vim/vim/commit/80a7921a02bbba6e8ebfb19bcc456860d8c269ca)
   - [`neovim/neovim` -- merged in Pull Request `34377`](https://github.com/neovim/neovim/pull/34377)
+- [Pull Requests `17658` -- runtime(liquid): Add `reverse` array filter](https://github.com/vim/vim/pull/17658)
 
 ### [Vim Spell Under](https://github.com/S0AndS0/vim-spell-under) source code
 
